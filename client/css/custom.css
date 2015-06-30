@@ -1,0 +1,38 @@
+
+table {
+    border:black 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    border:black 1px solid;
+    padding:2px;
+}
+
+table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+tr:nth-child(even) {background: #DDD}
+tr:nth-child(odd) {background: #FFF}
+
+.neutral {
+    color:black;
+}
+
+.winner{
+    color:green;
+}
+
+.loser{
+    color:red;
+}
